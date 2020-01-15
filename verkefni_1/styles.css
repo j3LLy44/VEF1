@@ -1,0 +1,32 @@
+body{
+    max-width: 60em;
+    border: 1px solid purple; /* -width -style -color */
+    margin: 1em auto; /* top + bottom / left + right */
+    padding: 1em;
+    font-family: 'Times New Roman', Times, serif
+}
+h1 {
+    text-align: center;
+    color: darkred
+}
+ul li {
+    color: green;
+}
+a{
+    color: red;
+    background-color: aqua
+}
+a:visited{
+    color: darkblue
+    background-color red;
+}
+.ljod{
+    margin-left: 3em;
+}
+.ljod p {
+    font-style: italic;
+    color: darkviolet
+}
+.ljod strong {
+    color: red;
+}
