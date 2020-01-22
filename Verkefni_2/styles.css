@@ -1,0 +1,29 @@
+h1{
+    border: 3px solid pink;
+}
+.bordi {
+    border: 3px solid cyan;
+    padding: 1em 2em; /* top+bottom left+right */
+    color: red;
+    margin-bottom: 1em;
+}
+.blues {
+    color: blue;
+    border: 4px dashed blue;
+    padding: .5em; 
+}
+li{
+    border: 3px dashed green;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.inline li{
+    display: inline;
+    color: red;
+    border: 3px dashed blueviolet;
+}
+.inlineBlock li{
+    display: inline-block;
+    border: 3px dashed rgb(90, 252, 157);
+    margin: 1em;
+}

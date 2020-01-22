@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    border: 1px solid;
+    padding: 1em;
+    width: 50%;
+    float: left;
+}
+.imgR {
+    float:right;
+    padding-left: .5em;
+}
+.bigL{
+    float: left;
+    font-size: 3em;
+    padding: .24em .4em 0 .4em; /* top - right - bottom - left*/
+}
+.group:after{
+    clear:both;
+}
+
+.group {
+    clear: both;
+}
+.imgR img {
+    width: 100%;
+    height:auto;
+}
