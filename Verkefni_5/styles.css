@@ -1,0 +1,115 @@
+html{
+    scroll-behavior: smooth;
+    font-family: 'Nunito', sans-serif, 'monospace';
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+h1{
+    font-size: 44px;
+}
+.body{
+    background: rgb(50,0,199);
+    background: linear-gradient(180deg, rgba(50,0,199,1) 0%, rgba(1,0,103,1) 100%);
+
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.verkefni{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.navelements{
+    padding-left: 8px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 60em;
+}
+
+.centercontent{
+    display: flex;
+
+}
+
+.navcontainer{
+    display: grid;
+    justify-items: flex-end;
+    align-items: self-end;
+    font-size: 22px;
+}
+
+.topheader{
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+.mainsection{
+    padding-top: 24px;
+    background: rgb(118,0,121);
+    background: linear-gradient(180deg, rgba(118,0,121,1) 0%, rgba(203,0,178,1) 100%);
+}
+
+.main{
+
+}
+
+.quote{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.col-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gap{
+    gap: 2em;
+}
+
+@media (max-width: 600px) {
+    .col-sm-1{
+        grid-template-columns: 1fr;
+    }
+
+    .topmerge{
+        justify-items: center;
+    }
+
+    .flexcolumn{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+}
+
+
+
+/* Innerlinks */
+
+.innermenu{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.toparrow{
+    position: fixed;
+    right: 3em;
+    bottom: 3em;
+
+}
